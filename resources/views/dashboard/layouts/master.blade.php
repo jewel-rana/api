@@ -16,10 +16,6 @@
     <link rel="stylesheet" href="/assets/backend/distribution/css/fontastic.css">
     <!-- Google fonts - Roboto -->
     <link rel="stylesheet" href="/assets/backend/distribution/https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <!-- jQuery Circle-->
-    <link rel="stylesheet" href="/assets/backend/distribution/css/grasp_mobile_progress_circle-1.0.0.min.css">
-    <!-- Custom Scrollbar-->
-    <link rel="stylesheet" href="/assets/backend/distribution/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="/assets/backend/distribution/css/style.default.css" id="theme-stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/app.css">
@@ -50,14 +46,10 @@
         <!-- Sidebar Navigation Menus-->
         <div class="main-menu">
           <!-- <h5 class="sidenav-heading">Main</h5> -->
-          <ul id="side-main-menu" class="side-menu list-unstyled">                  
-            <li><router-link to="/dashboard"> <i class="icon-home"></i>Dashboard</router-link></li>
-            <li><router-link to="/dashboard/customer"> <i class="icon-form"></i>Customers</router-link></li>
-            <li><router-link to="/dashboard/area"> <i class="icon-grid"></i>Areas</router-link></li>
-            <li><router-link to="/dashboard/package"> <i class="icon-grid"></i>Packages</router-link></li>
-            <li><router-link to="/dashboard/billing"> <i class="fa fa-bar-chart"></i>Billings</router-link></li>
-            <li><router-link to="/dashboard/report"> <i class="fa fa-bar-chart"></i>Reports</router-link></li>
-            <li> <router-link to="/dashboard/management"><i class="icon-screen"> </i>Management</router-link></li>
+          <ul id="side-main-menu" class="side-menu list-unstyled">
+            <li><router-link to="/dashboard/payment"> <i class="icon-form"></i>Payment</router-link></li>
+            <li><router-link to="/dashboard/ftp"> <i class="icon-grid"></i>FTP</router-link></li>
+            <li> <router-link to="/dashboard/user"><i class="icon-screen"> </i>User</router-link></li>
           </ul>
         </div>
       </div>
@@ -112,12 +104,6 @@
     <!-- JavaScript files-->
     <script src="/assets/backend/distribution/vendor/jquery/jquery.min.js"></script>
     <script src="/js/app.js"></script>
-    <script src="/assets/backend/distribution/js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
-    <script src="/assets/backend/distribution/vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="/assets/backend/distribution/vendor/chart.js/Chart.min.js"></script>
-    <script src="/assets/backend/distribution/vendor/jquery-validation/jquery.validate.min.js"></script>
-    <script src="/assets/backend/distribution/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="/assets/backend/distribution/js/charts-home.js"></script>
     <!-- Main File-->
     <script src="/assets/backend/distribution/js/front.js"></script>
   </body>

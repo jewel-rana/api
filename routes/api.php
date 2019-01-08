@@ -18,8 +18,5 @@ Route::group(['prefix' => '/v1', 'middleware' => ['auth:api']], function(){
 });
 
 Route::apiResources(['/user' => 'API\ApiUserController']);
-Route::apiResources(['/customer' => 'API\CustomerApiController']);
-Route::apiResources(['/area' => 'API\AreaApiController']);
-Route::apiResources(['/package' => 'API\ApiPackageController']);
-Route::apiResources(['/billing' => 'API\BillingApiController']);
-Route::apiResources(['/report' => 'API\ReportApiController']);
+Route::apiResources(['/ftp' => 'API\ApiFtpController']);
+Route::apiResources(['/payment' => 'API\ApiPaymentController']);

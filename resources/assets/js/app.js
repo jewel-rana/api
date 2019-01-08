@@ -43,14 +43,10 @@ Vue.use(progressbar, {
 //vue routes
 let routes = [
     { path: '/dashboard', component: require('./components/dashboard/home/Index.vue') },
-	{ path: '/dashboard/location', component: require('./components/dashboard/location/Index.vue') },
-    { path: '/dashboard/customer', component: require('./components/dashboard/customer/Index.vue') },
-    { path: '/dashboard/area', component: require('./components/dashboard/area/Index.vue') },
-    { path: '/dashboard/area/view/{id}', component: require('./components/dashboard/area/View.vue') },
-    { path: '/dashboard/package', component: require('./components/dashboard/package/Index.vue') },
-    { path: '/dashboard/billing', component: require('./components/dashboard/billing/Index.vue') },
-    { path: '/dashboard/report', component: require('./components/dashboard/report/Index.vue') },
-    { path: '/dashboard/management', component: require('./components/dashboard/management/Index.vue') }
+    { path: '/dashboard/ftp', component: require('./components/dashboard/ftp/Index.vue') },
+    { path: '/dashboard/ftp/view/{id}', component: require('./components/dashboard/ftp/View.vue') },
+    { path: '/dashboard/payment', component: require('./components/dashboard/payment/Index.vue') },
+    { path: '/dashboard/user', component: require('./components/dashboard/user/Index.vue') }
 ];
 
 const router = new VueRouter({

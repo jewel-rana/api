@@ -4,12 +4,6 @@ $(document).ready(function () {
     // Custom Scrollbar
     // ------------------------------------------------------ //
 
-    if ($(window).outerWidth() > 992) {
-        $("nav.side-navbar").mCustomScrollbar({
-            scrollInertia: 200
-        });
-    }
-
     // Main Template Color
     var brandPrimary = '#33b35a';
 
@@ -86,16 +80,6 @@ $(document).ready(function () {
     });
 
     // ------------------------------------------------------- //
-    // Jquery Progress Circle
-    // ------------------------------------------------------ //
-    var progress_circle = $("#progress-circle").gmpc({
-        color: brandPrimary,
-        line_width: 5,
-        percent: 80
-    });
-    progress_circle.gmpc('animate', 80, 3000);
-
-    // ------------------------------------------------------- //
     // External links to new window
     // ------------------------------------------------------ //
 
@@ -112,10 +96,6 @@ $(document).ready(function () {
     var stylesheet = $('link#theme-stylesheet');
     $("<link id='new-stylesheet' rel='stylesheet'>").insertAfter(stylesheet);
     var alternateColour = $('link#new-stylesheet');
-
-    if ($.cookie("theme_csspath")) {
-        alternateColour.attr("href", $.cookie("theme_csspath"));
-    }
 
     $("#colour").change(function () {
 
