@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="{{ asset('assets/img/logo-fav.png') }}">
-    <title>Beagle</title>
+    <title>Login - JSNET</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/lib/perfect-scrollbar/css/perfect-scrollbar.css') }}"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/lib/material-design-icons/css/material-design-iconic-font.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" type="text/css"/>
